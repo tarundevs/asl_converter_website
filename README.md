@@ -1,16 +1,34 @@
-<<<<<<< HEAD
-# tarundevs.github.io
-=======
-# React + Vite
+# ASL Converter Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
+This project is a web application that converts text to American Sign Language (ASL) using a client-server architecture. The client provides a user interface for inputting text, while the server processes the conversion.
 
-Currently, two official plugins are available:
+## Installation
+1. Clone the repository:
+   ```
+   git clone https://github.com/yourusername/asl_converter_website.git
+   cd asl_converter_website
+   ```
+2. Install dependencies for the server:
+   ```
+   cd server
+   npm install
+   ```
+3. Install dependencies for the client:
+   ```
+   cd ../client
+   npm install
+   ```
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
->>>>>>> master
+## Usage
+1. Start the server:
+   ```
+   cd server
+   npm start
+   ```
+2. Start the client:
+   ```
+   cd ../client
+   npm start
+   ```
+3. Open your browser and navigate to https://asl-converter-website.vercel.app/ to view it.
