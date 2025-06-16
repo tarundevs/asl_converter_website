@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { NavBar } from "../components/NavBar.jsx";
 import { Footer } from "../components/Footer.jsx";
-import { Starbackground } from "@/components/Starbackground.jsx";
+import { Starbackground } from "@/components/StarBackground.jsx";
 import { ThemeToggle } from "@/components/ThemeToggle.jsx";
 
 export const NotFound = () => {

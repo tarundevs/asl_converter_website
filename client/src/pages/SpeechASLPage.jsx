@@ -1,5 +1,5 @@
 import { ThemeToggle } from "../components/ThemeToggle.jsx";
-import { Starbackground } from "@/components/Starbackground.jsx";
+import { Starbackground } from "@/components/StarBackground.jsx";
 import { NavBar } from "@/components/NavBar.jsx";
 import { Speech_ASL } from "@/components/speechASL.jsx";
 
