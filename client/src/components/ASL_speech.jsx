@@ -1,5 +1,5 @@
 import { useState, useRef, useEffect } from 'react';
-import {Footer} from "./Footer"
+import {Footer} from "./Footer.jsx"
 export const ASL_speech = () => {
   const [outputText, setOutputText] = useState('Ready to translate ASL signs...');
   const [isCameraOn, setIsCameraOn] = useState(false);

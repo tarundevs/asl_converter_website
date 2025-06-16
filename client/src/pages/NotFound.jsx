@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
-import { NavBar } from "../components/NavBar";
-import { Footer } from "../components/Footer";
-import { Starbackground } from "@/components/Starbackground";
-import { ThemeToggle } from "@/components/ThemeToggle";
+import { NavBar } from "../components/NavBar.jsx";
+import { Footer } from "../components/Footer.jsx";
+import { Starbackground } from "@/components/Starbackground.jsx";
+import { ThemeToggle } from "@/components/ThemeToggle.jsx";
 
 export const NotFound = () => {
   const [isDarkMode, setIsDarkMode] = useState(false);

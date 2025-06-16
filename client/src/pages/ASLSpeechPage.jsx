@@ -1,7 +1,7 @@
-import { ThemeToggle } from "../components/ThemeToggle";
-import { Starbackground } from "@/components/Starbackground";
-import { NavBar } from "@/components/NavBar";
-import { ASL_speech } from "@/components/ASL_speech";
+import { ThemeToggle } from "../components/ThemeToggle.jsx";
+import { Starbackground } from "@/components/Starbackground.jsx";
+import { NavBar } from "@/components/NavBar.jsx";
+import { ASL_speech } from "@/components/ASL_speech.jsx";
 
 export const ASLSpeechPage = () => {
   return (
